@@ -1,0 +1,8 @@
+let g:netrw_dirhistmax  =10
+let g:netrw_dirhist_cnt =6
+let g:netrw_dirhist_1='/Users/taka/Desktop/VIM'
+let g:netrw_dirhist_2='/Users/taka/Desktop/Rails'
+let g:netrw_dirhist_3='/Users/taka/Desktop/Rails/myapp'
+let g:netrw_dirhist_4='/Users/taka/Desktop/Rails/myapp/app'
+let g:netrw_dirhist_5='/Users/taka/Desktop/Rails/myapp/app/views'
+let g:netrw_dirhist_6='/Users/taka/Desktop/Rails/myapp/app/views/layouts'
