@@ -1,6 +1,6 @@
 # Dotfiles
 
-Welcome to my world.
+dotfiles for OSX environment
 
 ## Contents
 
