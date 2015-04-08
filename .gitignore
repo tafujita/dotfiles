@@ -1,2 +1,5 @@
+# no vim plugins
 vim/vim.symlink/bundle/
-zsh/oh-my-zsh/
+
+# no oh-my-zsh
+# zsh/oh-my-zsh/
