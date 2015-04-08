@@ -1,2 +1,5 @@
 # no vim plugins
 vim/vim.symlink/bundle/
+
+# no .DS_Store files
+.DS_Store
