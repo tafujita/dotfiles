@@ -19,8 +19,17 @@ dotfiles for OSX environment
 2. `cd ~/.dotfiles`
 3. `./install.sh`
 4. manually symlink oh-my-zsh `ln -s ~/.dotfiles/zsh/oh-my-zsh ~/.oh-my-zsh`
+ 
+
+## Install Submodules
+
+1. `cd ~/.dotfiles`
+2. `git submodule init`
+3. `git submodule update`
+
 
 ## iTerm2 Settings
+
 1. open iTerm2 Application
 2. open Preferences `cmd + ,`
 3. in General Tab check "Load preferences from a custom folder or URL:"
