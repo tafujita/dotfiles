@@ -9,6 +9,9 @@ source install/link.sh
 
 if [ "$(uname)" == "Darwin" ]; then
 	echo "running on OSX"
+	# Install Fonts
+	echo "installing powerline fonts..."
+	source install/powerline_fonts/install.sh
 
 	# Install Homebrew and update
 	if test ! $(which brew); then
