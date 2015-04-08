@@ -28,6 +28,12 @@ dotfiles for OSX environment
 3. `git submodule update`
 
 
+## Install Vim Plugins
+
+1. `vim`
+2. `:PluginInstall`
+
+
 ## iTerm2 Settings
 
 1. open iTerm2 Application
