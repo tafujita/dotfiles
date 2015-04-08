@@ -16,5 +16,6 @@ dotfiles for OSX environment
 ## Install
 
 1. `git clone https://github.com/tafujita/dotfiles.git ~/.dotfiles`
-1. `cd ~/.dotfiles`
-1. `./install.sh`
+2. `cd ~/.dotfiles`
+3. `./install.sh`
+4. manually symlink oh-my-zsh `ln -s ~/.dotfiles/zsh/oh-my-zsh ~/.oh-my-zsh/`
