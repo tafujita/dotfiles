@@ -10,6 +10,7 @@ dotfiles for OSX environment
 + git configuration
 + Homebrew bins
 + Brew-cask apps
++ pip packages
 
 
 ## Install
