@@ -28,8 +28,8 @@ if [ "$(uname)" == "Darwin" ]; then
 	echo "brew-cask all the things"
 	source install/cask.sh
 
-	echo "pip all the package"
-	source install/pip.sh
+	# echo "pip all the package"
+	# source install/pip.sh
 
 #	echo "updating OSX settings"
 #	source scripts/osx.sh
