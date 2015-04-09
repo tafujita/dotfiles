@@ -8,11 +8,11 @@ dotfiles for OSX environment
 + vim configuration
 + tmux configuration
 + git configuration
++ brew bins
++ brew-cask apps
++ pip packages
 + iterm2 configuration
 + iterm2 themes (base16)
-+ Homebrew bins
-+ Brew-cask apps
-+ pip packages
 
 ## Install
 
