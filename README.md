@@ -42,4 +42,4 @@ dotfiles for OSX environment
 4. Browse file (Dropbox in my case)
 5. in Profiles Tab select Zsh Profile
 6. Color Tab > Load Presets... > import... > "base16-atelierheath.dark" & "base16-atelierheath.light"
-7. Text Tab > Regular Font & Non-ASCII Font > 17pt Inconsolata for Powerline
+7. Text Tab > Regular Font & Non-ASCII Font > 18pt Inconsolata for Powerline
