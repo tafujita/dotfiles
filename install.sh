@@ -37,6 +37,11 @@ if [ "$(uname)" == "Darwin" ]; then
 #	echo "installing node (from nvm)"
 #	nvm install stable
 #	nvm alias default stable
+
+	echo "linking iTerm2 configuration..."
+	rm ~/Library/Preferences/com.googlecode.iterm2.plist
+	ln -s ~/.dotfiles/iterm2/com.googlecode.iterm2.plist ~/Library/Preferences/com.googlecode.iterm2.plist
+
 fi
 
 echo ""
