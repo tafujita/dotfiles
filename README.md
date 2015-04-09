@@ -8,10 +8,11 @@ dotfiles for OSX environment
 + vim configuration
 + tmux configuration
 + git configuration
++ iterm2 configuration
++ iterm2 themes (base16)
 + Homebrew bins
 + Brew-cask apps
 + pip packages
-
 
 ## Install
 
@@ -38,8 +39,6 @@ dotfiles for OSX environment
 
 1. open iTerm2 Application
 2. open Preferences `cmd + ,`
-3. in General Tab check "Load preferences from a custom folder or URL:"
-4. Browse file (Dropbox in my case)
-5. in Profiles Tab select Zsh Profile
-6. Color Tab > Load Presets... > import... > "base16-atelierheath.dark" & "base16-atelierheath.light"
-7. Text Tab > Regular Font & Non-ASCII Font > 18pt Inconsolata for Powerline
+3. in Profiles Tab select Zsh Profile
+4. Color Tab > Load Presets... > import... > "base16-atelierheath.dark" & "base16-atelierheath.light"
+5. Text Tab > Regular Font & Non-ASCII Font > 18pt Inconsolata for Powerline
