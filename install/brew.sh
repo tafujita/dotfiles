@@ -1,5 +1,13 @@
 #!/bin/sh
 
+
+#
+# Brew Tap
+#
+
+brew tap homebrew/science
+
+
 #
 # Install Brew packages.
 #
@@ -46,9 +54,21 @@ binaries=(
   graphicsmagick
   heroku-toolbelt
 
+  # pip preparation
+  pkg-config
+  freetype
+  libpng
 )
 
 brew install ${binaries[@]}
+
+
+#
+# Symlink for freetype
+#
+
+ln -s /usr/local/include/freetype2 /usr/local/include/freetype
+
 
 #
 # Cleanup
