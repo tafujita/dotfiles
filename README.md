@@ -41,5 +41,5 @@ dotfiles for OSX environment
 2. open Preferences `cmd + ,`
 3. in General Tab > Preferences > Load preferences from a custom folder: `~/Library/Preferences/`
 3. in Profiles Tab select Zsh Profile
-4. Color Tab > Load Presets... > import... > "base16-atelierheath.dark" & "base16-atelierheath.light"
-5. Text Tab > Regular Font & Non-ASCII Font > 18pt Inconsolata for Powerline
+4. Color Tab > Load Presets... > import... > `base16-atelierheath.dark` & `base16-atelierheath.light`
+5. Text Tab > Regular Font & Non-ASCII Font > `18pt Inconsolata for Powerline`
