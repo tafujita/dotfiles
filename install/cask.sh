@@ -23,6 +23,7 @@ apps=(
   1password
   alfred
   caffeine
+  spectacle # window resizing manager
   xquartz  # required for some pip
   mamp
   mysqlworkbench
