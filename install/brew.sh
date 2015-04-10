@@ -16,6 +16,7 @@ binaries=(
   # Core Functionality
   git
   tmux
+  reattach-to-user-namespace
   # vim
   macvim --override-system-vim
   zsh
