@@ -13,7 +13,7 @@ apps=(
   # Terminal & Text Editor
   iterm2
   atom
-  #eclipse-java
+  eclipse-java
 
   # Cloud Disk
   dropbox
@@ -27,8 +27,8 @@ apps=(
   xquartz  # required for some pip
   mamp
   mysqlworkbench
-  #soundflower
-  #adobe-reader
+  soundflower
+  adobe-reader
   dash
 
   # Languages
@@ -38,8 +38,8 @@ apps=(
   java6 # required for Arduino
 
   # VM
-  #parallels-desktop
-  #virtualbox
+  parallels-desktop
+  virtualbox
 
   # Browser
   google-chrome
@@ -51,15 +51,15 @@ apps=(
   skype
   vlc
   handbrake
-  #camtasia
-  #libreoffice
-  #spotify
+  camtasia
+  libreoffice
+  spotify
 
   # Graphics / Music
-  #sketchup
-  #pd-extended
+  sketchup
+  pd-extended
   #cycling74-max # version 7 is available online
-  #audacity
+  audacity
 )
 
 # Install apps to /Applications
