@@ -29,7 +29,7 @@ apps=(
   mysqlworkbench
   soundflower
   adobe-reader
-  dash
+  vagrant
 
   # Languages
   arduino
@@ -52,7 +52,7 @@ apps=(
   vlc
   handbrake
   camtasia
-  libreoffice
+  # libreoffice
   spotify
 
   # Graphics / Music
