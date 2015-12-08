@@ -54,6 +54,7 @@ binaries=(
   hub
   graphicsmagick
   heroku-toolbelt
+  imagemagick
 
   # pip preparation
   pkg-config

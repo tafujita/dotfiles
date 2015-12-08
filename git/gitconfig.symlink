@@ -1,3 +1,5 @@
 [user]
   name = Taka Fujita
   email = fujita.it@gmail.com
+[alias]
+	lg = log --oneline --decorate --all --graph

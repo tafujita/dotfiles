@@ -11,9 +11,11 @@ brew tap caskroom/versions
 
 apps=(
   # Terminal & Text Editor
-  iterm2
+  # iterm2
+  iterm2-beta
   atom
   eclipse-java
+  sublime-text3
 
   # Cloud Disk
   dropbox
@@ -24,6 +26,7 @@ apps=(
   alfred
   caffeine
   spectacle # window resizing manager
+  evernote
   xquartz  # required for some pip
   mamp
   mysqlworkbench
