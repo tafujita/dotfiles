@@ -14,8 +14,9 @@ apps=(
   # iterm2
   iterm2-beta
   atom
-  eclipse-java
+  # eclipse-java
   sublime-text3
+  # emacs
 
   # Cloud Disk
   dropbox
@@ -28,8 +29,9 @@ apps=(
   spectacle # window resizing manager
   evernote
   xquartz  # required for some pip
-  mamp
+#  mamp
   mysqlworkbench
+  sequel-pro
   soundflower
   adobe-reader
   vagrant
@@ -42,7 +44,7 @@ apps=(
 
   # VM
   parallels-desktop
-  virtualbox
+  # virtualbox
 
   # Browser
   google-chrome
@@ -59,6 +61,7 @@ apps=(
   spotify
 
   # Graphics / Music
+  sketch
   sketchup
   pd-extended
   #cycling74-max # version 7 is available online

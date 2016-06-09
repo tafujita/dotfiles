@@ -19,6 +19,7 @@ binaries=(
   reattach-to-user-namespace
   # vim
   macvim --override-system-vim
+  emacs
   zsh
   bash
   homebrew/dupes/grep
