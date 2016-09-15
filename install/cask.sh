@@ -6,16 +6,22 @@
 #
 
 # can treat another Java versions
-echo "tapping caskroom/versions..."
+
+# add support for fonts
+brew tap caskroom/fonts
+
+#add dev/beta versions
 brew tap caskroom/versions
 
 apps=(
+  # Fonts
+  font-source-code-pro
+
   # Terminal & Text Editor
-  # iterm2
   iterm2-beta
   atom
   # eclipse-java
-  sublime-text3
+  sublime-text
   # emacs
 
   # Cloud Disk
@@ -29,18 +35,23 @@ apps=(
   spectacle # window resizing manager
   evernote
   xquartz  # required for some pip
+  yujitach-menumeters
 #  mamp
-  mysqlworkbench
-  sequel-pro
   soundflower
   adobe-reader
-  vagrant
+  # vagrant
 
   # Languages
   arduino
   processing
   java
   java6 # required for Arduino
+
+  # Database 
+  mysqlworkbench
+  sequel-pro
+  postgres
+  pgadmin3
 
   # VM
   parallels-desktop
@@ -56,14 +67,14 @@ apps=(
   skype
   vlc
   handbrake
-  camtasia
+  # camtasia
   # libreoffice
   spotify
 
   # Graphics / Music
   sketch
   sketchup
-  pd-extended
+  # pd-extended
   #cycling74-max # version 7 is available online
   audacity
 )
@@ -71,8 +82,8 @@ apps=(
 # Install apps to /Applications
 # Default is: /Users/$user/Applications
 echo "installing apps..."
-brew cask install --appdir="/Applications" ${apps[@]}
-
+# brew cask install --appdir="/Applications" ${apps[@]}
+brew cask install ${apps[@]}
 
 #
 # Link Cask Apps to Alfred

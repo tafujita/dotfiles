@@ -39,7 +39,7 @@ binaries=(
   node
 
   # Languages & Frameworks
-  gcc
+  #gcc
   go
   python
   python3
