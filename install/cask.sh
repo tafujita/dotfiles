@@ -19,9 +19,9 @@ apps=(
 
   # Terminal & Text Editor
   iterm2-beta
-  atom
-  # eclipse-java
   sublime-text
+  # atom
+  # eclipse-java
   # emacs
 
   # Cloud Disk
@@ -33,7 +33,7 @@ apps=(
   alfred
   caffeine
   spectacle # window resizing manager
-  evernote
+  # evernote
   xquartz  # required for some pip
   yujitach-menumeters
 #  mamp
@@ -65,11 +65,11 @@ apps=(
 
   # Media
   skype
+  spotify
   vlc
   handbrake
   # camtasia
   # libreoffice
-  spotify
 
   # Graphics / Music
   sketch
